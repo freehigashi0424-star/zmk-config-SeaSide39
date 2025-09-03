@@ -74,10 +74,10 @@
 
         ARROW {
             bindings = <
-&kp LG(TAB)           &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans                       &kp LG(TAB)    &kp LC(LG(LEFT_ARROW))      &kp RG(UP_ARROW)    &kp RG(RC(RIGHT_ARROW))      &kp RG(RC(RS(D)))
-&mt LEFT_CONTROL TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                      &kp LA(F4)     &kp RG(LEFT_ARROW)          &kp RG(DOWN_ARROW)  &kp RG(RIGHT_ARROW)          &kp RC(RG(F4))
-&kp LEFT_SHIFT        &trans          &trans          &trans           &trans                       &msc SCRL_UP   &kp LA(LG(LC(LEFT_ARROW)))  &msc SCRL_DOWN      &kp RG(RA(RC(RIGHT_ARROW)))  &kp RA(RC(RG(RIGHT_ARROW)))
-&trans                &trans          &trans          &trans           &trans   &trans      &trans  &kp BACKSPACE                                                                               &trans
+&kp LG(TAB)           &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp HOME                      &kp LG(TAB)   &kp LC(LG(LEFT_ARROW))      &kp RG(UP_ARROW)    &kp RG(RC(RIGHT_ARROW))      &kp RG(RC(RS(D)))
+&mt LEFT_CONTROL TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                       &kp LA(F4)    &kp RG(LEFT_ARROW)          &kp RG(DOWN_ARROW)  &kp RG(RIGHT_ARROW)          &kp RC(RG(F4))
+&kp LEFT_SHIFT        &trans          &trans          &trans           &trans                        &msc SCRL_UP  &kp LA(LG(LC(LEFT_ARROW)))  &msc SCRL_DOWN      &kp RG(RA(RC(RIGHT_ARROW)))  &kp RA(RC(RG(RIGHT_ARROW)))
+&trans                &trans          &trans          &trans           &trans    &trans      &trans  &trans                                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
