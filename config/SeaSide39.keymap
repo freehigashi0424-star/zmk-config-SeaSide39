@@ -56,10 +56,10 @@
 
         SYMBOL {
             bindings = <
-&kp ESCAPE            &kp F2     &kp UP     &kp F4           &kp P                          &kp LG(LS(S))      &kp LS(NUMBER_1)      &kp RS(NUMBER_6)       &kp RS(N7)  &kp EQUAL
-&mt LEFT_CONTROL TAB  &kp LEFT   &kp DOWN   &kp RIGHT_ARROW  &kp LC(Z)                      &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI    &kp MINUS
-&kp HOME              &kp RS(C)  &kp LC(C)  &kp LC(V)        &kp LC(Y)                      &kp COLON          &kp LBKT              &kp RBKT               &kp SQT     &kp DOUBLE_QUOTES
-&kp END               &trans     &kp LC(A)  &trans           &trans     &trans      &trans  &trans                                                                      &trans
+&kp ESCAPE            &kp F2     &kp UP     &kp F4           &kp P                          &kp LG(LS(S))      &kp EXCLAMATION   &kp CARET             &kp AMPS               &kp EQUAL
+&mt LEFT_CONTROL TAB  &kp LEFT   &kp DOWN   &kp RIGHT_ARROW  &kp LC(Z)                      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS
+&kp HOME              &kp RS(C)  &kp LC(C)  &kp LC(V)        &kp LC(Y)                      &kp COLON          &kp PERCENT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK
+&kp END               &trans     &kp LC(A)  &trans           &trans     &trans      &trans  &trans                                                                            &trans
             >;
         };
 
