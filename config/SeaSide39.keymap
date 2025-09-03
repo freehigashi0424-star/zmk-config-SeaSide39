@@ -75,7 +75,7 @@
         ARROW {
             bindings = <
 &kp LG(TAB)           &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp HOME                      &kp LG(TAB)      &kp LC(LG(LEFT_ARROW))      &msc SCRL_UP    &kp RG(RC(RIGHT_ARROW))      &kp LS(LC(LG(D)))
-&mt LEFT_CONTROL TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                       &kp LA(F4)       &msc SCRL_LEFT              &msc SCRL_DOWN  &msc SCRL_RIGHT              &kp RC(RG(F4))
+&mt LEFT_CONTROL TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                       &kp LA(F4)       &mkp MB1                    &msc SCRL_DOWN  &mkp MB2                     &kp RC(RG(F4))
 &kp LEFT_SHIFT        &trans          &trans          &trans           &trans                        &kp RC(RA(TAB))  &kp LA(LG(LC(LEFT_ARROW)))  &mkp MCLK       &kp RG(RA(RC(RIGHT_ARROW)))  &kp RA(RC(RG(RIGHT_ARROW)))
 &trans                &trans          &trans          &trans           &trans    &trans      &trans  &trans                                                                                    &trans
             >;
