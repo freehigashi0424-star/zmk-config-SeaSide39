@@ -85,10 +85,10 @@
 
         MOUSE {
             bindings = <
-&kp ASTERISK   &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp EQUAL                      &trans  &trans    &trans    &trans    &trans
-&kp SLASH      &kt NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS                       &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&kp NUMBER_0   &kt NUMBER_1  &kp NUMBER_2  &kt NUMBER_3  &trans                         &trans  &trans    &trans    &trans    &trans
-&kp BACKSPACE  &kp ENTER     &kp PERIOD    &trans        &trans     &trans      &trans  &trans                                &trans
+&kp ASTERISK   &kp NUMBER_7    &kp LANGUAGE_5  &kp LANG_ZENKAKUHANKAKU  &kp EQUAL                      &trans  &trans    &trans    &trans    &trans
+&kp SLASH      &kt NUMBER_4    &kp LANGUAGE_4  &kp LANG3                &kp PLUS                       &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&kp NUMBER_0   &kp LANGUAGE_2  &kp LANGUAGE_1  &kp LANGUAGE_2           &trans                         &trans  &trans    &trans    &trans    &trans
+&kp BACKSPACE  &kp ENTER       &kp PERIOD      &trans                   &trans     &trans      &trans  &trans                                &trans
             >;
         };
 
