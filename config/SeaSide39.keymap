@@ -48,7 +48,7 @@
 &kp Q               &kp W         &kp E         &kp R             &kp T                                        &kp Y        &kp U  &lt 5 I    &kp O       &lt 6 P
 &mt LEFT_CONTROL A  &kp S         &kp D         &kp F             &kp G                                        &kp H        &kp J  &kp K      &kp L       &mt RCTRL MINUS
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V             &kp B                                        &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
-&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 LANGUAGE_1  &lt 1 SPACE  &lt 3 LANGUAGE_2      &kp BSPC  &lt 2 ENTER                                &lt 3 INT_HENKAN
+&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BSPC  &lt 2 ENTER                                &lt 3 INT_HENKAN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -103,10 +103,10 @@
 
         CONFIG {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_CLR    &trans        &trans        &trans                            &kp C_VOLUME_UP    &trans    &kp UP    &trans     &trans
-&trans          &trans        &trans        &trans        &trans                            &kp C_VOLUME_DOWN  &kp LEFT  &kt DOWN  &kt RIGHT  &trans
-&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &bootloader        &trans    &trans    &trans     &trans
-&trans          &trans        &trans        &trans        &trans        &trans      &trans  &trans                                            &trans
+&bt BT_CLR_ALL  &bt BT_CLR    &trans        &trans        &trans                            &kp C_VOLUME_UP    &kp LG(LEFT_ARROW)  &kp LG(UP)    &kp LG(RIGHT)  &trans
+&trans          &trans        &trans        &trans        &trans                            &kp C_VOLUME_DOWN  &kp RG(H)           &kt LG(DOWN)  &kt RG(RIGHT)  &trans
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &bootloader        &trans              &trans        &trans         &trans
+&trans          &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                              &trans
             >;
         };
     };
