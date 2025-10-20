@@ -48,7 +48,7 @@
 &kp Q               &kp W         &kp E         &kp R             &kp T                                        &kp Y        &kp U  &lt 5 I    &kp O       &lt 6 P
 &mt LEFT_CONTROL A  &kp S         &kp D         &kp F             &kp G                                        &kp H        &kp J  &kp K      &kp L       &mt RCTRL MINUS
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V             &kp B                                        &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
-&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BSPC  &lt 2 ENTER                                &lt 3 INT_HENKAN
+&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 LANGUAGE_2  &lt 1 SPACE  &lt 4 LANGUAGE_1      &kp BSPC  &lt 2 ENTER                                &lt 3 INT_HENKAN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -86,9 +86,9 @@
         MOUSE {
             bindings = <
 &kp ASTERISK   &kp NUMBER_7  &kp N8        &kp N9        &kp EQUAL                      &trans  &trans    &trans    &trans    &trans
-&kp SLASH      &kt NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS                       &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&kp SLASH      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS                       &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &kp PERIOD     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0                         &trans  &trans    &trans    &trans    &trans
-&kp BACKSPACE  &kp ENTER     &kp PERIOD    &trans        &trans     &trans      &trans  &trans                                &trans
+&kp BACKSPACE  &kp ENTER     &kp MINUS     &trans        &trans     &trans      &trans  &trans                                &trans
             >;
         };
 
